@@ -12,6 +12,74 @@
     font-size: 20px;
     font-weight: 100;
 }
+
+/*共通部分*/
 html{
     background-color: #ffcccc;
+}
+
+.title{
+    text-align: center;
+    margin-top: 70px;
+}
+.pen{
+    margin-top: 50px;
+}
+.main{
+    font-size: 2.275rem;
+    font-family: "yomogi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.caption{
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 1.275rem;
+}
+.main-content{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.275rem;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    color: grey;
+}
+
+span{
+    font-size: 1.75rem;
+    color: white;
+}
+
+
+/* ボタン */
+.btn{
+    text-align: center;
+    margin-top: 30px;
+}
+.button1{
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button1:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button1:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
 }

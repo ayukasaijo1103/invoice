@@ -10,13 +10,40 @@
         <link rel="stylesheet" href="css/style.css">
         <!--Google Font-->
         <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Cormorant+Garamond:wght@600&family=Cutive+Mono&family=Dancing+Script&family=Hachi+Maru+Pop&family=Josefin+Slab:wght@300&family=Klee+One&family=Noto+Serif+JP:wght@200&family=Noto+Serif:wght@100&family=Quicksand:wght@300&family=Rampart+One&family=Sawarabi+Gothic&family=Slackside+One&family=Zen+Maru+Gothic:wght@300;500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Cormorant+Garamond:wght@600&family=Cutive+Mono&family=Dancing+Script&family=Edu+SA+Beginner&family=Hachi+Maru+Pop&family=Josefin+Slab:wght@300&family=Klee+One&family=Noto+Serif+JP:wght@200&family=Noto+Serif:wght@100&family=Quicksand:wght@300&family=Rampart+One&family=Sawarabi+Gothic&family=Slackside+One&family=Zen+Maru+Gothic:wght@300;500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Cormorant+Garamond:wght@600&family=Cutive+Mono&family=Dancing+Script&family=Edu+SA+Beginner&family=Hachi+Maru+Pop&family=Josefin+Slab:wght@300&family=Klee+One&family=Noto+Serif+JP:wght@200&family=Noto+Serif:wght@100&family=Quicksand:wght@300&family=Rampart+One&family=Sawarabi+Gothic&family=Slackside+One&family=Zen+Maru+Gothic:wght@300;500&display=swap" rel="stylesheet">
         <!--javascript-->
         <script src="js/script.js" defer></script>
         <!--favicon-kits-code-->
+
+        <!--font-code-->
+        <script>
+            (function(d) {
+              var config = {
+                kitId: 'ijt7lxu',
+                scriptTimeout: 3000,
+                async: true
+              },
+              h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+            })(document);
+          </script>
     </head>
 
     <body>
         <div id="loading">
             <P>あなたの努力をしるす場所</P>
+        </div>
+
+        <div class="title">
+            <p class="main">あなただけの請求書</p>
+            <p class="caption">An invoice just for you.</p>
+            <img class="pen" src="images/pen.png" alt="">
+        </div>
+        <div class="main-content">
+            <p>今日も1日、今週も1週間、今月も1ヶ月、お疲れ様でした</p>
+            <p>あなたの<span>頑張り</span>を、お世話になっている人に<span>真心</span>こめて届けましょう</p>
+        </div>
+        <div class="btn">
+        <button class="button1" role="button">請求書を作成</button>
         </div>
     </body>
